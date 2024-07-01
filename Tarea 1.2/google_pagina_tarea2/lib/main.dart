@@ -194,7 +194,6 @@ class MyApp extends StatelessWidget {
               ),
               const SizedBox(height: 20,),
 
- 
               const Row(
                 mainAxisAlignment: MainAxisAlignment.start,
                 children: [
