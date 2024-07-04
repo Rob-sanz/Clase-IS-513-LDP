@@ -33,13 +33,13 @@ class MyApp extends StatelessWidget {
                           'Tu cuenta está protegida',
                           style: TextStyle(
                             fontWeight: FontWeight.bold,
-                            fontSize: 24,
+                            fontSize: 18,
                           ),
                         ),
                         SizedBox(height: 5),
                         Text(
                           'La Verificación de seguridad revisó tu cuenta y no encontró acciones recomendadas.',
-                          style: TextStyle(fontSize: 20,),
+                          style: TextStyle(fontSize: 16,),
                         ),
                       ],
                     ),
@@ -61,7 +61,7 @@ class MyApp extends StatelessWidget {
                     'Ver detalles',
                     style: TextStyle(
                       color: Colors.blue,
-                      fontSize: 16,
+                      fontSize: 14,
                     ),
                   ), 
                 ],
@@ -87,13 +87,13 @@ class MyApp extends StatelessWidget {
                           'Verificación de privacidad',
                             style: TextStyle(
                               fontWeight: FontWeight.bold,
-                              fontSize: 24,
+                              fontSize: 18,
                           ),
                         ),
                         SizedBox(height: 5),
                         Text(
                           'Elige la configuración de privacidad indicada para ti con esta guía paso a paso.',
-                          style: TextStyle(fontSize: 20,),
+                          style: TextStyle(fontSize: 16,),
                         ),
                       ],
                     ),
@@ -113,7 +113,7 @@ class MyApp extends StatelessWidget {
                     'Realizar la Verificación de privacidad.',
                       style: TextStyle(
                         color: Colors.blue,
-                        fontSize: 16,
+                        fontSize: 14,
                     ),
                   ), 
                 ],
@@ -194,6 +194,7 @@ class MyApp extends StatelessWidget {
               ),
               const SizedBox(height: 20,),
 
+              //Bloque 4
               const Row(
                 mainAxisAlignment: MainAxisAlignment.start,
                 children: [
@@ -209,8 +210,15 @@ class MyApp extends StatelessWidget {
                       ],
                     )
                   ),
+                  Icon(Icons.shield,
+                  color: Colors.blue,
+                  size: 50,)
                 ],
               ),
+
+
+
+
             ],
           ),
         ),
