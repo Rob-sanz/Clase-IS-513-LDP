@@ -212,7 +212,9 @@ class MyApp extends StatelessWidget {
                   ),
                   Icon(Icons.shield,
                   color: Colors.blue,
-                  size: 50,)
+                  size: 50
+                  
+                  ,)
                 ],
               ),
 
